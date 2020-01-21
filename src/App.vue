@@ -80,6 +80,7 @@ export default {
         this.startups = response.records
           .map(r => r.fields)
           .filter(o => o.review == 'approved')
+        console.log(this.startups)
       })
       .catch(err => {
         this.error = err

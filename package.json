@@ -1,5 +1,5 @@
 {
-  "name": "aec-startups-vue",
+  "name": "barer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "run-p build:**",
     "build:app": "vue-cli-service build",
     "build:lambda": "netlify-lambda build lambda",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix"
   },
   "dependencies": {
     "airtable": "^0.6.0",
