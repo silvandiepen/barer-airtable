@@ -1,5 +1,5 @@
 const Airtable = require('airtable')
-const mockdata = require('./mockdata.json.js')
+const mockdata = require('./mockdata.json')
 
 exports.handler = function(event, context, callback) {
   // Return mock
