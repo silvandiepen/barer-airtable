@@ -1,0 +1,30 @@
+@import 'bootstrap_variables.scss';
+@import 'mixins.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+html {
+  // Resets
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+
+body {
+    @include  linear-gradient(120deg, rgb(95%, 96%, 95%) 0%, rgb(98%, 98%, 99%) 100%);
+    // background-color: rgb(95%, 96%, 95%);
+
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+*:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+

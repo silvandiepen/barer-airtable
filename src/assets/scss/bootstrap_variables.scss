@@ -1,0 +1,16 @@
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+// Background
+$body-color: #202025;
+
+// Background
+$body-bg: #f6f6f6;
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$primary: #d1689f;
+$warning:  rgb(223, 70, 0);
+$theme-colors: (
+    "primary": $primary,
+    "secondary": #5573ac,
+    "danger": #d45b55
+);

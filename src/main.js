@@ -1,13 +1,16 @@
-import Vue from "vue";
-import App from "./App.vue";
-import "./registerServiceWorker";
-import router from "./router";
-import store from "./store";
+import Vue from 'vue'
+import App from './App.vue'
 
-Vue.config.productionTip = false;
+import VueRellax from 'vue-rellax'
+
+import BootstrapVue from 'bootstrap-vue'
+import '@/assets/scss/app.scss'
+import router from './router'
+
+Vue.use(BootstrapVue)
+Vue.use(VueRellax)
 
 new Vue({
   router,
-  store,
   render: h => h(App)
-}).$mount("#app");
+}).$mount('#app')
