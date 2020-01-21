@@ -18,7 +18,7 @@ exports.handler = function(event, context, callback) {
   }
 
   Airtable.configure({
-    endpointUrl: process.env.AIRTABLE_API_URL,
+    // endpointUrl: process.env.AIRTABLE_API_URL,
     apiKey: process.env.AIRTABLE_API_KEY,
     baseKey: process.env.AIRTABLE_API_BASE
   })
