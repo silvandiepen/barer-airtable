@@ -25,7 +25,7 @@ exports.handler = function(event, context, callback) {
 
   const base = Airtable.base(Airtable.baseKey)
   const allRecords = []
-  base('Strings')
+  base('strings')
     .select({
       maxRecords: 100,
       view: 'all'
