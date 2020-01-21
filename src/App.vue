@@ -80,7 +80,9 @@ export default {
         this.startups = response.records
           .map(r => r.fields)
           .filter(o => o.review == 'approved')
+        /* eslint-disable */
         console.log(this.startups)
+        /* eslint-enable */
       })
       .catch(err => {
         this.error = err
